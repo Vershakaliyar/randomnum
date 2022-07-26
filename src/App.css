@@ -1,0 +1,46 @@
+.App {
+  text-align: center;
+}
+
+
+
+.div1{
+  /*background-color: #282c34;*/
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #282c34;
+}
+
+button {
+  background-color: white; 
+  border: 2px;
+  border-style: solid;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+button {
+  transition-duration: 0.4s;
+}
+
+button:hover {
+  background-color: #282c34; 
+  color: white;
+}
+
+
+button:active {
+  background-color: #615f60;
+  background-size: 100%;
+  transition: background 0s;
+}
+
+
+
